@@ -11,7 +11,7 @@ $link-color: red;
 @import "minimal-mistakes"; // main partials
 
 // Font 변경
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght300;400;500;600;700&display=swap"rel=stylesheet"')
 
 $serif             : "Fira Code", monospace, "PT Serif", Georgia, Times, serif; 
 $sans-serif-narrow : "Fira Code", monospace, "PT Snas Narrow", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
