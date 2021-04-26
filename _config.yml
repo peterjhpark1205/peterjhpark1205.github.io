@@ -17,6 +17,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ko-KR"
 title                    : "IdiArdist's Space and Note"
+masthead_tite            : false #'title'과 다른 title을 masthead title로 하고싶을 때 별도로 지정함. 지정하지 않으면 title이 masthead로 나타남.
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "IdiArdist"
@@ -28,7 +29,25 @@ teaser                   : /assets/images/500x300.png # path of fallback teaser 
 logo                     : /asstes/images/logo_githubpage.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true     # post의 날짜를 자동으로 보여줌.
+date format              : "%Y-%b-%d"
+
+words_per_minute         : 250
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true     # post의 날짜를 자동으로 보여줌.
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
