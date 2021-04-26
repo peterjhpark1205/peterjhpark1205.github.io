@@ -30,23 +30,8 @@ logo                     : /asstes/images/logo_githubpage.png # path of logo ima
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      show_date: true     # post의 날짜를 자동으로 보여줌.
-date format              : "%Y-%b-%d"
-
 words_per_minute         : 250
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      read_time: true     # post의 날짜를 자동으로 보여줌.
+
 
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -296,6 +281,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
       comments: # true
       share: true
       related: true
+
+date format              : "%Y-%b-%d"
