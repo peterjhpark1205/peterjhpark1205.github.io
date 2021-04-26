@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "IdiArdist's Space and Note"
-masthead_tite            : false #'title'과 다른 title을 masthead title로 하고싶을 때 별도로 지정함. 지정하지 않으면 title이 masthead로 나타남.
+# masthead_tite          : false #'title'과 다른 title을 masthead title로 하고싶을 때 별도로 지정함. 지정하지 않으면 title이 masthead로 나타남.
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "IdiArdist"
@@ -31,7 +31,6 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 
 words_per_minute         : 250
-
 
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -282,7 +281,7 @@ defaults:
       author_profile: true
       read_time: true
       show_date: true
-      comments: # true
+      comments: true
       share: true
       related: true
 
