@@ -94,10 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "IdiArdist"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "개인적인 관심을 기록하고 공부합니다."
+  location         : "https://peterjhpark1205.github.io/"
   email            :
   links:
     - label: "Email"
