@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "IdiArdist's Space and Note"
 # masthead_tite          : false #'title'과 다른 title을 masthead title로 하고싶을 때 별도로 지정함. 지정하지 않으면 title이 masthead로 나타남.
-title_separator          : "-"
+title_separator          : "*"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "IdiArdist"
 description              : "기록을 위한 공간"
