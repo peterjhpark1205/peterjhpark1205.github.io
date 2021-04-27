@@ -39,9 +39,10 @@ note:
   - title: "Introduction"
     url: /note/introduction/
   - title: "Music"
-    children:
-#      - title: "Based on Coursera"
-#        url: /code/ml-coursera/
+    url: /note/music/
+  - title: "Movie"
+    url: /note/music/
+
   
 
 
