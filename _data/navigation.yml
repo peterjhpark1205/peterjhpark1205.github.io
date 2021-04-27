@@ -16,8 +16,8 @@ main:
 math:
   - title: "Linear Algebra"
     children:
-      - title: "MIT OCW"
-        url: /math/mit-ocw/
+      - title: "Based on MIT OCW"
+        url: /math/linal-mit-ocw/
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
@@ -28,8 +28,8 @@ math:
 code:
   - title: "Machine Learning"
     children:
-      - title: "Coursera"
-        url: /code/coursera/
+      - title: "Based on Coursera"
+        url: /code/ml-coursera/
   
 
 
