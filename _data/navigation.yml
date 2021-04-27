@@ -30,6 +30,9 @@ math:
 code:
   - title: "Introduction"
     url: /code/introduction/
+    children:
+      - title: "MarkDown 정리"
+        url: /code/markdown-summary/
   - title: "Machine Learning"
     children:
       - title: "Based on Coursera"
