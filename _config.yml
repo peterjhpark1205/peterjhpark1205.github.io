@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "IdiArdist's Space and Note"
+title                    : "SPACENOTE"
 # masthead_tite          : false #'title'과 다른 title을 masthead title로 하고싶을 때 별도로 지정함. 지정하지 않으면 title이 masthead로 나타남.
-title_separator          : "*"
+title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "IdiArdist"
-description              : "기록을 위한 공간"
+description              : "Spacious and Notable"
 url                      : "https://peterjhpark1205.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "peterjhpark1205/peterjhpark1205.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 
