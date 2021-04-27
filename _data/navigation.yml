@@ -3,27 +3,29 @@ main:
   - title: "About"
     url: /about/
   - title: "Math"
-    url: /math/
+    url: /math/introduction/
   - title: "Code"
-    url: /code/
+    url: /code/introduction/
   - title: "Note"
-    url: /note/
+    url: /note/introduction/
   - title: "Collection"
     url: /collection-archive/
   - title: "Tags"
     url: /tags/
 
 math:
+  - title: "Introduction"
+    url: /math/introduction/
   - title: "Linear Algebra"
     children:
       - title: "Based on MIT OCW"
         url: /math/linal-mit-ocw/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+#      - title: "Structure"
+#        url: /docs/structure/
+#      - title: "Installation"
+#        url: /docs/installation/
+#      - title: "Upgrading"
+#        url: /docs/upgrading/
 
 code:
   - title: "Machine Learning"
