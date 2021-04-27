@@ -8,8 +8,10 @@ redirect_from:
 toc: true
 ---
 
-
 <br>
+
+코세라에서 강의(강사: Andrew Ng)하는 머신러닝에 대한 이해를 요약함.
+
 <br>
 
 # 01. 지도학습(Supervised Learning)과 비지도학습(Unsupervised Learning)
