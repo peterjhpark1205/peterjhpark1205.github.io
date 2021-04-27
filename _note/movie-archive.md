@@ -1,6 +1,6 @@
 ---
 title: "Note on Movie"
 layout: archive
-permalink: /note/movie/
+permalink: /note/movie
 author_profile: false
 ---
