@@ -28,10 +28,20 @@ math:
 #        url: /docs/upgrading/
 
 code:
+  - title: "Introduction"
+    url: /code/introduction/
   - title: "Machine Learning"
     children:
       - title: "Based on Coursera"
         url: /code/ml-coursera/
+
+note:
+  - title: "Introduction"
+    url: /note/introduction/
+  - title: "Music"
+    children:
+#      - title: "Based on Coursera"
+#        url: /code/ml-coursera/
   
 
 
