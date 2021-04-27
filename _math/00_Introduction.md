@@ -9,7 +9,7 @@ toc: true
 ---
 
 
-**This is the space where math creatures are living. BEWARE! :warning:**
+**This is the space where math creatures(:space_invader:) are living. BEWARE! :warning:**
 
 수식은 MathJax를 활용하여 표현하고, 언어는 LaTeX를 사용한다.
 Latex 언어의 수식 표현은 [여기](https://www.codecogs.com/latex/eqneditor.php)를 가서 알아보자.
