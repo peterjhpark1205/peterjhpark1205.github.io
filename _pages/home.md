@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/home_background.jpg
 
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.
+  Note freely, but with responsible.
 
 
 feature_row:
@@ -17,7 +17,7 @@ feature_row:
     excerpt: "This is the space where math creatures are living. BEWARE!"
     url: "/math/introduction/"
     btn_class: "btn--primary"
-    btn_label: "Let's Learn"
+    btn_label: "Details"
     
   - image_path: /assets/images/home_code_icon.jpg
     alt: "code"
@@ -25,7 +25,7 @@ feature_row:
     excerpt: "This is the space where code creatures are living. BEWARE!"
     url: "/code/introduction/"
     btn_class: "btn--primary"
-    btn_label: "Let's Learn"
+    btn_label: "Details"
     
   - image_path: /assets/images/home_note_icon.jpg
     alt: "note"
@@ -33,7 +33,7 @@ feature_row:
     excerpt: "This is the space where various kinds of creatures are living. Have fun, but BEWARE!"
     url: "/note/introduction/"
     btn_class: "btn--primary"
-    btn_label: "Let's Learn"
+    btn_label: "Details"
 ---
 
 {% include feature_row %}
