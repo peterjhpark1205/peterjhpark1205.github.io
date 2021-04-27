@@ -24,7 +24,7 @@ Let's cherish every moment! :v:
 - :alien: Code
 
 ## Personal Interest on Note
-- :music:: Music
+- :musical_note:: Music
 - :movie_camera:: Movie
 - :airplane:: Travel
 
