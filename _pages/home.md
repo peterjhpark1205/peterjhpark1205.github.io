@@ -15,7 +15,7 @@ feature_row:
     alt: "math"
     title: "Math Space"
     excerpt: "This is the space where math creatures are living. BEWARE!"
-    url: "/math/"
+    url: "/math/introduction/"
     btn_class: "btn--primary"
     btn_label: "Let's Learn"
     
@@ -23,7 +23,7 @@ feature_row:
     alt: "code"
     title: "Code Space"
     excerpt: "This is the space where code creatures are living. BEWARE!"
-    url: "/code/"
+    url: "/code/introduction/"
     btn_class: "btn--primary"
     btn_label: "Let's Learn"
     
@@ -31,7 +31,7 @@ feature_row:
     alt: "note"
     title: "Note Space"
     excerpt: "This is the space where various kinds of creatures are living. Have fun, but BEWARE!"
-    url: "/note/"
+    url: "/note/introduction/"
     btn_class: "btn--primary"
     btn_label: "Let's Learn"
 ---
