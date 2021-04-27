@@ -2,22 +2,20 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Posts"
+  - title: "Math"
     url: /year-archive/
-  - title: "Categories"
+  - title: "Code"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/    
   - title: "Collection"
     url: /collection-archive/
+  - title: "Tags"
+    url: /tags/
 
 math:
-  - title: Introduction
+  - title: "Linear Algebra"
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+      - title: "Linear Algebra(1)"
+        url: /math/linear-algebra(1)/
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
