@@ -208,18 +208,27 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  math:
     output: true
     permalink: /:collection/:path/
-  recipes:
+  code:
     output: true
     permalink: /:collection/:path/
-  pets:
+  note:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+    
+# Tags
+tag:
+  math:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:tag/:path/
+  code:
+    output: true
+    permalink: /:tag/:path/
+  note:
+    output: true
+    permalink: /:tag/:path/
 
 # Defaults
 defaults:
@@ -229,8 +238,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       show_date: true
       comments: true
       share: true
@@ -242,44 +251,39 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
+  # _math
   - scope:
       path: ""
-      type: docs
+      type: math
     values:
       layout: single
       read_time: false
       author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
       share: true
       comments: true
-  # _pets
+      sidebar:
+        nav: "math"
+  # _code
   - scope:
       path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
+      type: code
     values:
       layout: single
       author_profile: false
       share: true
+      comments: true
+      sidebar:
+        nav: "code"      
+  # _note
+  - scope:
+      path: ""
+      type: note
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comment: true
+
 
 
 # Sass/SCSS
