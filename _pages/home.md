@@ -3,34 +3,37 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_color: "#000000"
+  overlay_image: /assets/images/home_background.jpg
 
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.22.0">Latest release v4.22.0</a></small>
+  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.
+
+
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/home_math_icon.jpg
+    alt: "math"
+    title: "Math Space"
+    excerpt: "This is the space where math creatures are living. BEWARE!"
+    url: "/math/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    btn_label: "Let's Learn"
+    
+  - image_path: /assets/images/home_code_icon.jpg
+    alt: "code"
+    title: "Code Space"
+    excerpt: "This is the space where code creatures are living. BEWARE!"
+    url: "/code/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    btn_label: "Let's Learn"
+    
+  - image_path: /assets/images/home_note_icon.jpg
+    alt: "note"
+    title: "Note Space"
+    excerpt: "This is the space where various kinds of creatures are living. Have fun, but BEWARE!"
+    url: "/note/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Let's Learn"
 ---
 
 {% include feature_row %}
