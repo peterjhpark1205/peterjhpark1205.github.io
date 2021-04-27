@@ -8,6 +8,8 @@ redirect_from:
 toc: true
 ---
 
+
+
 #지도학습(Supervised Learning)과 비지도학습(Unsupervised Learning)
 
 ##지도학습(Supervised Learning)
