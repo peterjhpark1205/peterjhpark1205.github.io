@@ -20,8 +20,8 @@ title                    : "SPACENOTE"
 # masthead_tite          : false #'title'과 다른 title을 masthead title로 하고싶을 때 별도로 지정함. 지정하지 않으면 title이 masthead로 나타남.
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "IdiArdist"
-description              : "Spacious and Notable"
+name                     : &name "IdiArdist"  # &name is a YAML anchor which can be *referenced later
+description              : &description "Spacious and Notable"
 url                      : "https://peterjhpark1205.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "peterjhpark1205/peterjhpark1205.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "IdiArdist"
+  name             : *name
   avatar           : "/assets/images/profile_photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Just an idiot who wants to be the aritist."
   location         : "대한민국, 서울"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/peterjhpark1205"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
