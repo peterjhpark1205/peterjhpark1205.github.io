@@ -9,5 +9,10 @@ toc: true
 ---
 
 
-This is the space where code creatures are living. BEWARE!
+**This is the space where code creatures(:alien:) are living. BEWARE! :warning:**
+
+수식은 MathJax를 활용하여 표현하고, 언어는 LaTeX를 사용한다.
+Latex 언어의 수식 표현은 [여기](https://www.codecogs.com/latex/eqneditor.php)를 가서 알아보자.
+*아직 LaTex가 어떤 것인지 명확히 인지하지 못했음..ㅠ*
+
 
