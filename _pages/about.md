@@ -21,7 +21,7 @@ Let's cherish every moment! :v:
 
 ## Eager to know about
 - :space_invader:: Math
-- :alien: Code
+- :alien:: Code
 
 ## Personal Interest on Note
 - :musical_note:: Music
