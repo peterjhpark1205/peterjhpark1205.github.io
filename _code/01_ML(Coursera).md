@@ -10,9 +10,9 @@ toc: true
 
 
 
-#지도학습(Supervised Learning)과 비지도학습(Unsupervised Learning)
-
-##지도학습(Supervised Learning)
+# 지도학습(Supervised Learning)과 비지도학습(Unsupervised Learning)
+ 
+## 지도학습(Supervised Learning)
 
 지도학습(Supervised Learining)은 크게 회귀(Regression)와 분류(Classification)로 나뉜다고 볼 수 있다.<br>
 회귀와 분류의 차이는 종속변수(반응변수)가 연속형(Continuous)인가 이산형(Discrete)인가에 따라 다르다고 할 수 있다.<br>
