@@ -3,9 +3,11 @@ main:
   - title: "About"
     url: /about/
   - title: "Math"
-    url: /year-archive/
+    url: /math/
   - title: "Code"
-    url: /categories/
+    url: /code/
+  - title: "Note"
+    url: /note/
   - title: "Collection"
     url: /collection-archive/
   - title: "Tags"
@@ -14,14 +16,20 @@ main:
 math:
   - title: "Linear Algebra"
     children:
-      - title: "Linear Algebra(1)"
-        url: /math/linear-algebra(1)/
+      - title: "MIT OCW"
+        url: /math/mit-ocw/
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
+
+code:
+  - title: "Machine Learning"
+    children:
+      - title: "Coursera"
+        url: /code/coursera/
   
 
 
