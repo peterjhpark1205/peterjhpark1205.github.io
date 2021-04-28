@@ -214,6 +214,9 @@ collections:
   code:
     output: true
     permalink: /:collection/:path/
+  ai:
+    output: true
+    permalink: /:collection/:path/
   note:
     output: true
     permalink: /:collection/:path/
@@ -226,6 +229,9 @@ tag:
   code:
     output: true
     permalink: /:tag/:path/
+  ai:
+    output: true
+    permalink: /:collection/:path/
   note:
     output: true
     permalink: /:tag/:path/
