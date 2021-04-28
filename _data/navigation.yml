@@ -33,10 +33,14 @@ code:
     children:
       - title: "MarkDown 정리"
         url: /code/markdown-summary/
+
+ai:
+  - title: "Introduction"
+    url: /ai/introduction/
   - title: "Machine Learning"
     children:
       - title: "Based on Coursera"
-        url: /code/ml-coursera/
+        url: /ai/ml-coursera/
 
 note:
   - title: "Introduction"
