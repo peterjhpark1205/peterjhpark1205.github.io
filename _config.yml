@@ -279,23 +279,34 @@ defaults:
       path: ""
       type: note
     values:
-      layout: archive
+      layout: single
       author_profile: false
       share: true
       comment: true
       sidebar:
         nav: "note"
-  #note_music
+  #_ai
   - scope:
-      path: "/_note/_music/"
-      type: music
+      path: ""
+      type: ai
     values:
-      layout: archive
+      layout: single
       author_profile: false
       share: true
       comment: true
       sidebar:
-        nav: "note_music"    
+        nav: "ai"
+  #_stat
+  - scope:
+      path: ""
+      type: stat
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comment: true
+      sidebar:
+        nav: "stat"
 
 
 
