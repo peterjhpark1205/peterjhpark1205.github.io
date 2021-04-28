@@ -284,7 +284,18 @@ defaults:
       share: true
       comment: true
       sidebar:
-        nav: "note"    
+        nav: "note"
+  #note_music
+  - scope:
+      path: "/note/music/"
+      type: music
+    values:
+      layout: archive
+      author_profile: false
+      share: true
+      comment: true
+      sidebar:
+        nav: "note_music"    
 
 
 
