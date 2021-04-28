@@ -5,7 +5,6 @@ excerpt: "코세라에서 강의(강사: Andrew Ng)하는 머신러닝에 대한
 last_modified_at: 2021-04-27
 tags:
   - Machine Learning
-use_math: true
 redirect_from:
   - /theme-setup/
 toc: true
