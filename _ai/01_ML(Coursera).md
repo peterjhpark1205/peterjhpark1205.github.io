@@ -47,7 +47,7 @@ toc: true
 # 02. 모델 구현(Model Representation)
 <br>
 
-$x^{(i)}$
+여기서 $x^{(i)}$는 입력값(Input, 설명변수)을 나타낸다.
 
 
 
