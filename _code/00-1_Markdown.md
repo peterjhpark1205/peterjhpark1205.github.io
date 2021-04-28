@@ -8,10 +8,8 @@ redirect_from:
 toc: true
 ---
 
-'''python
-
-a = 1
-b = 2
-a + b;
-
-'''
+  '''python
+  a = 1
+  b = 2
+  a + b;
+  '''
