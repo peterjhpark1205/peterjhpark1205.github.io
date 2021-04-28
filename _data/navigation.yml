@@ -41,13 +41,9 @@ code:
 note:
   - title: "Introduction"
     url: /note/introduction/
-  children:
-    - title: "Introduction"
-      url: /note/music/introduction/
+
     
-note_music:
-  - title: "Introduction"
-    url: /note/music/introduction/
+
 
   
 
