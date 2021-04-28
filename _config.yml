@@ -245,6 +245,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      use_math: true
       read_time: true
       show_date: true
       comments: true
@@ -265,6 +266,7 @@ defaults:
       layout: single
       read_time: false
       author_profile: false
+      use_math: true
       share: true
       comments: true
       sidebar:
@@ -276,6 +278,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      use_math: true
       share: true
       comments: true
       sidebar:
@@ -287,6 +290,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      use_math: true
       share: true
       comment: true
       sidebar:
@@ -298,6 +302,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      use_math: true
       share: true
       comment: true
       sidebar:
