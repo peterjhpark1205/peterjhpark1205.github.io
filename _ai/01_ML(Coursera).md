@@ -44,6 +44,7 @@ toc: true
 
 # 02. 모델 구현(Model Representation)
 <br>
+
 $$x^{(i)}$$
 
 
