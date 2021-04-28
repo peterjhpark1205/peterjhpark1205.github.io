@@ -6,6 +6,8 @@ main:
     url: /math/introduction/
   - title: "Code"
     url: /code/introduction/
+  - title: "AI"
+    url: /ai/introduction/
   - title: "Note"
     url: /note/introduction/
   - title: "Collection"
