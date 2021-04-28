@@ -34,7 +34,7 @@ toc: true
 ## 비지도 학습(Unsupervised Learning)
 **비지도 학습(Unsupervised Learning)** 은 문제에 대한 해결 방법을 거의 또는 전혀 알지 못할 때, 결과가 어떠할 것인지를 예측하는 것이다. 우리는 설명변수가 어떤 영향을 미칠 지 모르는 상황(즉, 종속변수가 없는 상황) 속에서 해당 자료(Data)의 구조를 찾기 위해 비지도 학습을 사용한다.<br>
 
-비지도 학습은 크게 <U>군집(Clustering)</U>과 <U>비군집(Non-Clustering)</U>으로 나뉜다. 군집은 자료 내 변수들(Variables) 간의 관계(Relationship)를 파악하여 군집을 구성하는 것이고, 비군집은 ['칵테일 파티 효과(Cocktail Party Effect)'](https://en.wikipedia.org/wiki/Cocktail_party_effect, "Cocktail Party Effect")를 예로 들 수 있다. 여러 노이즈로 생각되는 값들 중에서 특정값을 찾아내고 이를 강조(Amplify)하는 것으로 실제 신경과학(Neuroscience)에서 관심을 갖고 있는 부분이고, 이를 구현하는 ['칵테일 파티 알고리즘'(Cocktail Party Algorithm)](https://interestingengineering.com/researchers-look-to-the-brain-for-algorithms-for-the-cocktail-party-problem, "Cocktail Party Algorithm")이 있다.
+비지도 학습은 크게 <U>군집(Clustering)</U>과 <U>비군집(Non-Clustering)</U>으로 나뉜다. 군집은 자료 내 변수들(Variables) 간의 관계(Relationship)를 파악하여 군집을 구성하는 것이고, 비군집은 ['칵테일 파티 효과(Cocktail Party Effect)'](https://en.wikipedia.org/wiki/Cocktail_party_effect)를 예로 들 수 있다. 여러 노이즈로 생각되는 값들 중에서 특정값을 찾아내고 이를 강조(Amplify)하는 것으로 실제 신경과학(Neuroscience)에서 관심을 갖고 있는 부분이고, 이를 구현하는 ['칵테일 파티 알고리즘'(Cocktail Party Algorithm)](https://interestingengineering.com/researchers-look-to-the-brain-for-algorithms-for-the-cocktail-party-problem)이 있다.
 
 <br>
 <br>
