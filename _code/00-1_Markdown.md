@@ -8,10 +8,8 @@ redirect_from:
 toc: true
 ---
 
-
-'''markdown
-이렇게<br>
-엔터를<br>
-친것과<br>
-동일함<br>
+'''python
+a = 1
+b = 2
+a + b;
 '''
