@@ -8,8 +8,13 @@ redirect_from:
 toc: true
 ---
 
-  '''python
-  a = 1
-  b = 2
-  a + b;
-  '''
+
+
+여기에서는 마크다운에 대해 다른 페이지들에서 본 것들을 정리한다.
+
+
+    '''python
+    a = 1
+    b = 2
+    a + b;
+    '''
