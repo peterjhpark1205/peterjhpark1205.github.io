@@ -16,6 +16,7 @@ toc: true
 
 # 01. 지도 학습(Supervised Learning)과 비지도 학습(Unsupervised Learning)
 <br>
+
 ## 지도 학습(Supervised Learning)
 
 **지도 학습(Supervised Learining)**은 크게 <U>회귀(Regression)</U>와 <U>분류(Classification)</U>로 나뉜다고 볼 수 있다.<br>
@@ -36,6 +37,7 @@ toc: true
 ## 비지도 학습(Unsupervised Learning)
 비지도 학습(Unsupervised Learning)은 문제에 대한 해결 방법을 거의 또는 전혀 알지 못할 때, 결과가 어떠할 것인지를 예측하는 것이다. 우리는 설명변수가 어떤 영향을 미칠 지 모르는 상황(즉, 종속변수가 없는 상황) 속에서 해당 자료(Data)의 구조를 찾기 위해 비지도 학습을 사용한다.<br>
 <br>
+
 비지도
 
 
