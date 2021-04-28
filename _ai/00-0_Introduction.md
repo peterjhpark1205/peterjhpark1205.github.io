@@ -9,7 +9,7 @@ toc: true
 ---
 
 
-**This is the space where code creatures(:tiger2:) are living. BEWARE! :warning:**
+**This is the space where code creatures(:monkey:) are living. BEWARE! :warning:**
 
 
 ---
