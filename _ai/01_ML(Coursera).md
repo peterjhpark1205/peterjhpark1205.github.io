@@ -55,7 +55,10 @@ toc: true
 - 윗첨자(Superscript) **$^{(i}$** 는 <u>훈련 세트의 인덱스(Index)</u>를 나타내며, 승수(Exponentiation, 누승법/멱법)와는 관계가 없음.
 - **$X$** 는 입력값들의 공간(Space, 집합(Set)으로 생각해도 무방할 듯함.)을 나타내며, **$Y$** 는 출력값들의 공간을 나타냄.
   - 여기서 **$X$** 와 **$Y$** 는 실수 공간임.
-  - 즉, **$X=Y=\mathbb{R}$** 이며, **$X\subset Y\subset \mathbb{R}$** 로도 볼 수 있을 
+  - 즉, **$X=Y=\mathbb{R}$** 이며, **$X\subset Y\subset \mathbb{R}$** 로도 볼 수 있을 듯함.
+- 우리의 목표는 주어진 훈련 세트로 **$h: X \rightarrow Y$** 함수를 잘 학습하는 것이며, **$h(x)$** 는 **$y$** 에 대응하는 값에 대한 좋은("good") 예측기(Predictor)임.
+  - 역사적인 이유로 **$h$** 는 가정(Hypothesis)을 뜻함.
+
 
 
 
