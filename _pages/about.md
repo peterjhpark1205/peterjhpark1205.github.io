@@ -7,6 +7,8 @@ layouts_gallery:
     image_path: /assets/images/profile_pic.png
     alt: "profile_pic"
 toc: false
+read_time: false
+show_date: false
 ---
 
 Hi, I'm just an idiot person who wants to be the artist. :metal:! Since there are lots of interesting things around the world, I want to capture those things and note those into my space.
