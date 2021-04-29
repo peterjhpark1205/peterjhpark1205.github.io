@@ -6,7 +6,6 @@ tags:
   - Machine Learning
 redirect_from:
   - /theme-setup/
-toc: true
 ---
 
 <br>
