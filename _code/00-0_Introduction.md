@@ -1,5 +1,5 @@
 ---
-title: "(CODE) Introduction"
+title: "Introduction of CODE"
 permalink: /code/
 excerpt: "This is the space where code creatures are living. BEWARE!"
 ---
