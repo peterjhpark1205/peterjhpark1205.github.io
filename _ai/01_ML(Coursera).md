@@ -61,7 +61,7 @@ date: 2021-04-29
   - 역사적인 이유로 $\boldsymbol{h}$는 <u>가정(Hypothesis)</u>을 뜻함.
 <br>
 <figure>
-  <img src="{{ '/assets/images/ai_ml-coursera_02_01.png' | relative_url }}" alt="fork Minimal Mistakes">
+  <img src="{{ '/assets/images/ai_ml-coursera_02_01.png' | relative_url }}" alt="Model Representation">
 </figure>
 
 
