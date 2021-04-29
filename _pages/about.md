@@ -6,6 +6,7 @@ layouts_gallery:
   - url: /assets/images/profile_pic.png
     image_path: /assets/images/profile_pic.png
     alt: "profile_pic"
+author_profile: true
 toc: false
 read_time: false
 show_date: false
