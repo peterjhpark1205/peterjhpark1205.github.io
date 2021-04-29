@@ -2,9 +2,6 @@
 title: "Introduction"
 permalink: /math/introduction/
 excerpt: "This is the space where math creatures are living. BEWARE!"
-redirect_from:
-  - /theme-setup/
-toc: true
 ---
 
 
