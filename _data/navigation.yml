@@ -3,13 +3,13 @@ main:
   - title: "About"
     url: /about/
   - title: "Math"
-    url: /math/introduction/
+    url: /math/
   - title: "Code"
-    url: /code/introduction/
+    url: /code/
   - title: "AI"
-    url: /ai/introduction/
+    url: /ai/
   - title: "Note"
-    url: /note/introduction/
+    url: /note/
   - title: "Collection"
     url: /collection-archive/
   - title: "Tags"
@@ -17,7 +17,7 @@ main:
 
 math:
   - title: "Introduction"
-    url: /math/introduction/
+    url: /math/
   - title: "Linear Algebra"
     children:
       - title: "Based on MIT OCW"
@@ -31,14 +31,14 @@ math:
 
 code:
   - title: "Introduction"
-    url: /code/introduction/
+    url: /code/
     children:
       - title: "MarkDown 정리"
         url: /code/markdown-summary/
 
 ai:
   - title: "Introduction"
-    url: /ai/introduction/
+    url: /ai/
   - title: "Machine Learning"
     children:
       - title: "Based on Coursera"
@@ -46,7 +46,7 @@ ai:
 
 note:
   - title: "Introduction"
-    url: /note/introduction/
+    url: /note/
 
     
 
