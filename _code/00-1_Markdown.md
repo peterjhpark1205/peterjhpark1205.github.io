@@ -5,7 +5,7 @@ excerpt: "마크다운이 무엇인지와 문법들을 정리함."
 toc: true
 toc_sticky: true
 toc_label: "Contents"
-toc_icon: "markdown"
+toc_icon: "code"
 date: 2021-04-29
 ---
 
