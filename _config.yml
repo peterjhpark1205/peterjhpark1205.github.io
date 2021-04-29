@@ -257,8 +257,8 @@ defaults:
       use_math: true
       read_time: true
       show_date: true
-      comments: true
       share: true
+      comments: true
       related: true
   # _pages
   - scope:
@@ -266,7 +266,12 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      show_date: true
+      read_time: true
+      author_profile: false
+      use_math: true
+      share: true
+      comments: true
   # _math
   - scope:
       path: ""
