@@ -1,6 +1,6 @@
 ---
-title: "Introduction"
-permalink: /math/introduction/
+title: "Introduction of MATH Space"
+permalink: /math/
 excerpt: "This is the space where math creatures are living. BEWARE!"
 ---
 
