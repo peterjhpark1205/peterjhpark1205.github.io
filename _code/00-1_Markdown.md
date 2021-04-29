@@ -4,7 +4,6 @@ permalink: /code/markdown-summary/
 excerpt: "마크다운이 무엇인지와 문법들을 정리함."
 redirect_from:
   - /theme-setup/
-toc: true
 ---
 
 
