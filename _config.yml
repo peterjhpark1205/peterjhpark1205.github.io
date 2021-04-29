@@ -186,9 +186,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Date format
-date_format: "%B %-d, %Y"
-
 # Math equation
 markdown: kramdown
 highlighter: rouge
@@ -254,6 +251,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      show_date: true
       use_math: true
       read_time: true
       share: true
@@ -265,6 +263,7 @@ defaults:
       type: pages
     values:
       layout: single
+      show_date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -276,6 +275,7 @@ defaults:
       type: math
     values:
       layout: single
+      show_date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -291,6 +291,7 @@ defaults:
       type: code
     values:
       layout: single
+      show_date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -306,6 +307,7 @@ defaults:
       type: note
     values:
       layout: single
+      show_date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -321,6 +323,7 @@ defaults:
       type: ai
     values:
       layout: single
+      show_date: true
       read_time: true
       author_profile: false
       use_math: true
