@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-permalink: /code/introduction/
+permalink: /code/
 excerpt: "This is the space where code creatures are living. BEWARE!"
 ---
 
