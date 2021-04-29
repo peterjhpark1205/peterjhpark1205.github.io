@@ -15,9 +15,11 @@ date: 2021-04-29
 
 :pencil:: 코세라에서 강의(강사: Andrew Ng)하는 머신러닝에 대한 이해를 요약함.
 <br>
+***
 <br>
 
 # 01. 지도 학습(Supervised Learning)과 비지도 학습(Unsupervised Learning)
+***
 <br>
 
 ## 지도 학습(Supervised Learning)
@@ -41,10 +43,12 @@ date: 2021-04-29
 <br>
 <br>
 <br>
+***
 <br>
 <br>
 
 # 02. 모델 구현(Model Representation)
+***
 <br>
 
 향후 개념 설명을 위해, 다음과 같이 변수를 설명한다.
@@ -67,10 +71,12 @@ date: 2021-04-29
 <br>
 <br>
 <br>
+***
 <br>
 <br>
 
 # 03. 비용 함수(Cost Function)
+***
 <br>
 
 비용 함수(Cost Function)을 활용하여, 예측 함수($h_{\theta}(x^{(i)})$)의 정확도를 측정한다. 비용 함수는 '$x$를 입력값으로 한 예측의 결괏값'과 '실젯값 $y$'의 차이의 평균(산술평균과는 다름.)으로 나타낸다. 
