@@ -70,7 +70,7 @@ body {
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 5; # 제목과 본문 간 간격을 조정한다.
 
   & + .page__meta {
     margin-top: -0.5em;
