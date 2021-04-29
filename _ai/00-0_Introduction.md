@@ -2,8 +2,6 @@
 title: "Introduction"
 permalink: /ai/introduction/
 excerpt: "This is the space where ai creatures are living. BEWARE!"
-toc: true
-toc_sticky: false
 ---
 
 
