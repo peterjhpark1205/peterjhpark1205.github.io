@@ -63,7 +63,7 @@ date: 2021-04-29
 <br>
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_01.png' alt="Model Representation">
-  <figcaption><우리가 예측하고자 하는 목표변수(반응변수)가 연속형이라면 회귀 문제로 보며, 이산형이라면 분류 문제로 본다.></figcaption>
+  <figcaption>우리가 예측하고자 하는 목표변수(반응변수)가 연속형이라면 회귀 문제로 보며, 이산형이라면 분류 문제로 본다.</figcaption>
 </figure>
 <br>
 <br>
@@ -77,7 +77,7 @@ date: 2021-04-29
 비용 함수(Cost Function)을 활용하여, 예측 함수($h_{\theta}(x^{(i)})$)의 정확도를 측정한다. 비용 함수는 '$x$를 입력값으로 한 예측의 결괏값'과 '실젯값 $y$'의 차이의 평균(산술평균과는 다름.)으로 나타낸다. 
 <br>
 <br>
-$$J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2} = \frac{1}{2m}\sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^{2}$$
+$$ J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2} = \frac{1}{2m}\sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^{2} $$
 <br>
 <br>
 이 함수는 '제곱 오차 함수(Squared Error Funciton)', 또는 '평균 제곱 오차(Mean Squared Error)'라고도 불린다. 이 평균값은 이후 해당 값을 미분하여 계산하는 경사 하강법(Gradient Descent)의 계산을 쉽게 하기 위해 $\frac{1}{2}$로 나눠준다.
