@@ -10,32 +10,6 @@ $link-color: red;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Font 변경
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-$serif      	   : Goergia, Times, serif; 
-$sans-serif-narrow : "Roboto", Arial, sans-serif;
-$monospace 	   : Monaco, Consolas, "Lucida Console", "Fira Code", monospace;
-
-$global-font-family  : $serif;
-$header-font-family  : $sans-serif-narrow;
-$caption-font-family : $serif !default;
- 
-
-// Font 크기 변경
-html {
-	font-size: 12px; // originally 16px
-	@include breakpoint($medium){
-		font-size: 14px; // originally 18px
-	}
-	@include breakpoint($large){
-		font-size: 16px; // originally 20px
-	}
-	@include breakpoint($x-large){
-		font-size: 18px; // originally 22px
-	}
-}
-
 
 // Remove the underline of 'list title link'
 .archive a {
