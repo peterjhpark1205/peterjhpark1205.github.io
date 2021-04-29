@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-permalink: /ai/introduction/
+permalink: /ai/
 excerpt: "This is the space where ai creatures are living. BEWARE!"
 ---
 
