@@ -59,6 +59,10 @@ date: 2021-04-29
   - 즉, $\boldsymbol{X=Y=\mathbb{R}}$이라고 하나, $\boldsymbol{X\subset Y\subset \mathbb{R}}$이 더 정확할 것 같은데 지극히 '사견'임.
 - 우리의 목표는 주어진 훈련 세트로 $\boldsymbol{h: X \rightarrow Y}$ 함수를 잘 학습하는 것이며, $\boldsymbol{h(x)}$는 $y$에 대응하는 값에 대한 <u>좋은("good") 예측기(Predictor)</u>임.
   - 역사적인 이유로 $\boldsymbol{h}$는 <u>가정(Hypothesis)</u>을 뜻함.
+<br>
+<figure>
+  <img src="{{ '/assets/images/ai_ml-coursera_02_01.png' | relative_url }}" alt="fork Minimal Mistakes">
+</figure>
 
 
 
