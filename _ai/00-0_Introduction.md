@@ -1,9 +1,11 @@
 ---
+
 title: "Introduction"
 permalink: /ai/introduction/
 excerpt: "This is the space where ai creatures are living. BEWARE!"
-redirect_from:
-  - /theme-setup/
+toc: true
+toc_sticky: false
+
 ---
 
 
