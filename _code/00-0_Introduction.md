@@ -4,7 +4,6 @@ permalink: /code/introduction/
 excerpt: "This is the space where code creatures are living. BEWARE!"
 redirect_from:
   - /theme-setup/
-toc: true
 ---
 
 
