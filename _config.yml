@@ -277,7 +277,6 @@ defaults:
       layout: single
       show_date: true
       read_time: true
-      classes: wide
       author_profile: false
       use_math: true
       share: true
@@ -292,7 +291,6 @@ defaults:
       layout: single
       show_date: true
       read_time: true
-      classes: wide
       author_profile: false
       use_math: true
       share: true
@@ -307,7 +305,6 @@ defaults:
       layout: single
       show_date: true
       read_time: true
-      classes: wide
       author_profile: false
       use_math: true
       share: true
@@ -322,7 +319,6 @@ defaults:
       layout: single
       show_date: true
       read_time: true
-      classes: wide
       author_profile: false
       use_math: true
       share: true
