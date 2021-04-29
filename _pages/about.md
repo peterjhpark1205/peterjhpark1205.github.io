@@ -6,9 +6,7 @@ layouts_gallery:
   - url: /assets/images/profile_pic.png
     image_path: /assets/images/profile_pic.png
     alt: "profile_pic"
-
-last_modified_at: 2021-04-27
-toc: true
+toc: false
 ---
 
 Hi, I'm just an idiot person who wants to be the artist. :metal:! Since there are lots of interesting things around the world, I want to capture those things and note those into my space.
