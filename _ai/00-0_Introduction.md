@@ -2,6 +2,7 @@
 title: "Introduction of AI Space"
 permalink: /ai/
 excerpt: "This is the space where ai creatures are living. BEWARE!"
+date: 2021-04-29
 ---
 
 
