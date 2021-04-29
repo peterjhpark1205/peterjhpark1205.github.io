@@ -53,24 +53,39 @@ date: 2021-04-29
 - $\boldsymbol{y^{(i)}}$는 <u>출력값(Output, 반응변수)</u>을 나타내며, 우리가 예측하고자 하는 값임.
 - $\boldsymbol{(x^{(i)}, y^{(i)})}$는 <u>훈련 예제(Training Example)</u>이며, 우리가 학습을 시킬 데이터 세트(Dataset)임.
   - $m$ 개의 훈련 예제 목록인 $\boldsymbol{(x^{(i)}, y^{(i)});\; i=1,...,m}$은 <u>훈련 세트(Training Set)</u>라고 함.
-- 윗첨자(Superscript) $\boldsymbol{^{(i}}$는 <u>훈련 세트의 인덱스(Index)</u>를 나타내며, 승수(Exponentiation, 누승법/멱법)와는 관계가 없음.
+- 윗첨자(Superscript) $\boldsymbol{^{(i)}}$는 <u>훈련 세트의 인덱스(Index)</u>를 나타내며, 승수(Exponentiation, 누승법/멱법)와는 관계가 없음.
 - $\boldsymbol{X}$는 <u>입력값들의 공간(Space, 집합(Set)으로 생각해도 무방할 듯함.)</u>을 나타내며, $\boldsymbol{Y}$는 <u>출력값들의 공간</u>을 나타냄.
   - 여기서 $X$와 $Y$는 실수 공간임(정확히는 실수 공간에 존재함.).
   - 즉, $\boldsymbol{X=Y=\mathbb{R}}$이라고 하나, $\boldsymbol{X\subset Y\subset \mathbb{R}}$이 더 정확할 것 같은데 지극히 '사견'임.
 - 우리의 목표는 주어진 훈련 세트로 $\boldsymbol{h: X \rightarrow Y}$ 함수를 잘 학습하는 것이며, $\boldsymbol{h(x)}$는 $y$에 대응하는 값에 대한 <u>좋은("good") 예측기(Predictor)</u>임.
-  - 역사적인 이유로 $\boldsymbol{h}$는 <u>가정(Hypothesis)</u>을 뜻함.
+  - 역사로 $\boldsymbol{h}$는 <u>가정(Hypothesis, '예측'으로 변환함.)</u>을 뜻함.
+<br>
 <br>
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_01.png' alt="Model Representation">
-  <figcaption>우리가 예측하고자 하는 목표변수(반응변수)가 연속형이라면 회귀 문제로 보며, 이산형이라면 분류 문제로 본다.</figcaption>
+  <figcaption><우리가 예측하고자 하는 목표변수(반응변수)가 연속형이라면 회귀 문제로 보며, 이산형이라면 분류 문제로 본다.></figcaption>
 </figure>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+# 03. 비용 함수(Cost Function)
+<br>
 
+비용 함수(Cost Function)을 활용하여, 예측 함수($h_{\theta}(x^{(i)})$)의 정확도를 측정한다. 비용 함수는 '$x$를 입력값으로 한 예측의 결괏값'과 '실젯값 $y$'의 차이의 평균(산술평균과는 다름.)으로 나타낸다. 
+<br>
+<br>
+$$J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2} = \frac{1}{2m}\sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^{2}$$
+<br>
+<br>
+이 함수는 '제곱 오차 함수(Squared Error Funciton)', 또는 '평균 제곱 오차(Mean Squared Error)'라고도 불린다. 이 평균값은 이후 해당 값을 미분하여 계산하는 경사 하강법(Gradient Descent)의 계산을 쉽게 하기 위해 $\frac{1}{2}$로 나눠준다.
 
-
-
-
-
+<figure>
+  <img src="https://miro.medium.com/max/700/1*OG1d4edy5BFYeQ0yHjBOJA.gif" alt="Cost Function Example">
+  <figcaption>비용 함수를 최소화 하는 최적의 직선을 찾는 과정 [출처: https://towardsdatascience.com/gradient-descent-animation-1-simple-linear-regression-e49315b24672]</figcaption>
+</figure>
 
 
 
