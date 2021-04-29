@@ -6,7 +6,7 @@ tags:
   - Machine Learning
 toc: true
 toc_label: "Contents"
-toc_icon: "datbase"
+toc_icon: "database"
 toc_sticky: true
 date: 2021-04-29
 ---
