@@ -2,8 +2,6 @@
 title: "Introduction"
 permalink: /code/introduction/
 excerpt: "This is the space where code creatures are living. BEWARE!"
-toc: true
-toc_sticky: false
 ---
 
 
