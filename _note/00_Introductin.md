@@ -1,6 +1,6 @@
 ---
-title: "Introduction"
-permalink: /note/introduction/
+title: "Introduction of NOTE Space"
+permalink: /note/
 excerpt: "This is the space where various kinds of creatures are living. Have fun, but BEWARE!"
 ---
 
