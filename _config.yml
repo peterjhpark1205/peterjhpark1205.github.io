@@ -254,7 +254,7 @@ defaults:
       author_profile: false
       use_math: true
       read_time: true
-      show_date: true
+      date: true
       comments: true
       share: true
       related: true
@@ -271,7 +271,7 @@ defaults:
       type: math
     values:
       layout: single
-      show_date: true
+      date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -285,7 +285,7 @@ defaults:
       type: code
     values:
       layout: single
-      show_date: true
+      date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -299,7 +299,7 @@ defaults:
       type: note
     values:
       layout: single
-      show_date: true
+      date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -313,7 +313,7 @@ defaults:
       type: ai
     values:
       layout: single
-      show_date: true
+      date: true
       read_time: true
       author_profile: false
       use_math: true
