@@ -2,6 +2,7 @@
 title: "Introduction of MATH Space"
 permalink: /math/
 excerpt: "This is the space where math creatures are living. BEWARE!"
+date: 2021-04-29
 ---
 
 
