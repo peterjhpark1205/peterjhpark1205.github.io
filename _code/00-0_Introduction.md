@@ -7,7 +7,7 @@ last_modified_at: 2021-04-30
 ---
 
 
-**This is the space to capture interesting things about Artificial Intelligence!**
+**This is the space to capture interesting things about Code!**
 <br>
 
 > **수식 및 기호**는 MathJax를 활용하여 표현하고, 언어는 LaTeX를 사용한다.<br>
