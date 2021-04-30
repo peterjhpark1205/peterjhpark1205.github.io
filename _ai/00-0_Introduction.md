@@ -6,7 +6,7 @@ date: 2021-04-29
 ---
 
 
-**This is the space where to capture interesting things about Artificial Intelligence!**
+**This is the space to capture interesting things about Artificial Intelligence!**
 <br>
 
 > 수식은 MathJax를 활용하여 표현하고, 언어는 LaTeX를 사용한다.<br>
