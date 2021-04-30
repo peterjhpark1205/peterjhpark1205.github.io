@@ -1,19 +1,15 @@
 ---
 title: "Introduction of AI Space"
 permalink: /ai/
-excerpt: "This is the space where ai creatures are living. BEWARE!"
+excerpt: "This is the space where to capture interesting things about Artificial Intelligence!"
 date: 2021-04-29
 ---
 
 
-**This is the space where code creatures(:monkey:) are living. BEWARE! :warning:**
+**This is the space where to capture interesting things about Artificial Intelligence!**
+<br>
 
+> 수식은 MathJax를 활용하여 표현하고, 언어는 LaTeX를 사용한다.<br>
+> Latex 언어의 수식 표현은 [여기](https://www.codecogs.com/latex/eqneditor.php)를 가서 알아보자.<br>
 
----
-
-수식은 MathJax를 활용하여 표현하고, 언어는 LaTeX를 사용한다.<br>
-Latex 언어의 수식 표현은 [여기](https://www.codecogs.com/latex/eqneditor.php)를 가서 알아보자.<br>
-*아직 LaTex가 어떤 것인지 명확히 인지하지 못했음..ㅠ*<br>
-
----
 
