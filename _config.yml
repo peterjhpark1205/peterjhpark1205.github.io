@@ -275,7 +275,6 @@ defaults:
       type: math
     values:
       layout: single
-      show_date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -289,7 +288,6 @@ defaults:
       type: code
     values:
       layout: single
-      show_date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -303,7 +301,6 @@ defaults:
       type: note
     values:
       layout: single
-      show_date: true
       read_time: true
       author_profile: false
       use_math: true
@@ -317,7 +314,6 @@ defaults:
       type: ai
     values:
       layout: single
-      show_date: true
       read_time: true
       author_profile: false
       use_math: true
