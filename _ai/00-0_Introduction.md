@@ -3,6 +3,7 @@ title: "Introduction of AI Space"
 permalink: /ai/
 excerpt: "This is the space where to capture interesting things about Artificial Intelligence!"
 date: 2021-04-29
+last_modified_at: 2021-04-30
 ---
 
 
