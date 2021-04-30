@@ -18,12 +18,12 @@ So I want to capture the precious moments around me.<br>
 
 This blog is my personal learning space, to capture the precious thoughts, moments, and so on. <br>
 My posts will mostly be in Korean.<br>
-But when there's time some posts may be written in English or some other language.<br>
+But when there's time, some posts may be written in English or some other language.<br>
 
 I hope I can steadily post on this blog,<br>
 so that more people including me can enjoy the world better.<br>
 
-Enjoy! :woman_dancing::man_dancing: <br>
+Enjoy! :woman_dancing: :man_dancing: <br>
 
 
 
