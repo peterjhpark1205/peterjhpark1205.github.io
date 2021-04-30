@@ -98,4 +98,39 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 훈련 데이터 세트는 $x$-$y$ 평면에 산포되어(흩어져) 있다. 우리는 $h_{\theta}(x)$로 표현되는 산포된 데이터 점들을 잘 설명하며 통과하는 직선(추세를 나타내는 직선)을 그리고자 하는 것이다. 이러한 최적의 직선은 산포된 점들로부터의 수직방향으로의 거리가 최소가 되는 것이다. 아래와 같이 $(x, y)$를 나타내는 점이 세 개($(1, 1), (2, 2), (3, 3)$)가 있다고 가정하자. 이러한 분포를 가장 잘 설명하는 직선은 아래 그림과 같을 것이다.<br>
 
 
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Age', 'Weight'],
+          [ 8,      12],
+          [ 4,      5.5],
+          [ 11,     14],
+          [ 4,      5],
+          [ 3,      3.5],
+          [ 6.5,    7]
+        ]);
+
+        var options = {
+          title: 'Age vs. Weight comparison',
+          hAxis: {title: 'Age', minValue: 0, maxValue: 15},
+          vAxis: {title: 'Weight', minValue: 0, maxValue: 15},
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
 
