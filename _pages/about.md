@@ -23,7 +23,7 @@ But when there's time, some posts may be written in English or some other langua
 I hope I can steadily post on this blog,<br>
 so that more people including me can enjoy the world better.<br>
 
-Enjoy! :woman_dancing: :man_dancing: <br>
+Let's enjoy the moments! :partying_face: <br>
 
 
 
