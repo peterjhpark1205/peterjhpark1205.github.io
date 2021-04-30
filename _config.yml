@@ -263,12 +263,12 @@ defaults:
       type: pages
     values:
       layout: single
-      show_date: true
-      read_time: true
+      show_date: false
+      read_time: false
       author_profile: false
-      use_math: true
-      share: true
-      comments: true
+      use_math: false
+      share: false
+      comments: false
   # _math
   - scope:
       path: ""
