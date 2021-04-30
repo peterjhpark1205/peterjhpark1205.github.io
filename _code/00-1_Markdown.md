@@ -15,7 +15,6 @@ last_modified_at: 2021-04-29
 여기에서는 마크다운에 대해 다른 페이지들에서 본 것들을 정리한다.
 
 ```markdown
-// markdown
 
 이렇게<br>
 한줄을<br>
