@@ -13,9 +13,11 @@ show_date: false
 ---
 
 Hi, I'm just an idiot who wants to be the artist. :metal: <br>
-This blog is my personal learning space. <br>
+There are many kinds of artist. I just want to be the artist who can appreciate things around the world.<br>
+Maybe I can't be the artist, but I want to capture the precious moments around me.<br>
 
-My post will mostly be in Korean.<br>
+This blog is my personal learning space. <br>
+My posts will mostly be in Korean.<br>
 But when there's time some posts may be written in English or some other language.<br>
 
 I hope I can steadily post on this blog,<br>
@@ -26,12 +28,12 @@ Let's cherish every moment! :v: <br>
 
 
 ## Eager to know about
-- :space_invader:: Math
-- :alien:: Code
-- :monkey:: AI
+- :triangular_ruler:: Math
+- :computer:: Code
+- :chart:: AI
 
-## Personal Interest on Note
+## Personal Interests
 - :musical_note:: Music
-- :movie_camera:: Movie
+- :clapper:: Movie
 - :airplane:: Travel
 
