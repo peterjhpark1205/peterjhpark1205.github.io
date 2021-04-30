@@ -14,16 +14,16 @@ show_date: false
 
 Hi, I'm just an idiot who wants to be the artist. :metal: <br>
 There are many ways to define the artist, but I just want to be the artist who can appreciate things around the world.<br>
-So I want to capture the precious moments around me.<br>
+I want to capture the precious things and write those down on my blog.<br>
 
-This blog is my personal learning space, to capture the precious thoughts, moments, and so on. <br>
 My posts will mostly be in Korean.<br>
 But when there's time, some posts may be written in English or some other language.<br>
 
-I hope I can steadily post on this blog,<br>
-so that more people including me can enjoy the world better.<br>
+I hope I can steadily post on this blog, so that I can appreciate the world better.<br>
 
-Let's enjoy the moments! :partying_face: <br>
+If some happens to watch my blog, I hope you to enjoy.<br>
+
+Let's enjoy the moments! :tada: <br>
 
 
 
