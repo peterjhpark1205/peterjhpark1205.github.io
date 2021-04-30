@@ -10,10 +10,9 @@ main:
     url: /ai/
   - title: "Note"
     url: /note/
-  - title: "Collection"
-    url: /collection-archive/
-  - title: "Tags"
-    url: /tags/
+  - title: "Categories"
+    url: /categories/
+
 
 math:
   - title: "Introduction"
