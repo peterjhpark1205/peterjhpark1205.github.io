@@ -13,7 +13,7 @@ show_date: false
 ---
 
 Hi, I'm just an idiot who wants to be the artist. :metal: <br>
-There are many kinds of artist, but I just want to be the artist who can appreciate things around the world.<br>
+There are many ways to define the artist, but I just want to be the artist who can appreciate things around the world.<br>
 So I want to capture the precious moments around me.<br>
 
 This blog is my personal learning space, to capture the precious thoughts, moments, and so on. <br>
