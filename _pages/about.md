@@ -13,10 +13,10 @@ show_date: false
 ---
 
 Hi, I'm just an idiot who wants to be the artist. :metal: <br>
-There are many kinds of artist. I just want to be the artist who can appreciate things around the world.<br>
-Maybe I can't be the artist, but I want to capture the precious moments around me.<br>
+There are many kinds of artist, but I just want to be the artist who can appreciate things around the world.<br>
+So I want to capture the precious moments around me.<br>
 
-This blog is my personal learning space. <br>
+This blog is my personal learning space, to capture the precious thoughts, moments, and so on. <br>
 My posts will mostly be in Korean.<br>
 But when there's time some posts may be written in English or some other language.<br>
 
