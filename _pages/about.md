@@ -12,9 +12,14 @@ read_time: false
 show_date: false
 ---
 
-Hi, I'm just an idiot person who wants to be the artist. :metal:! Since there are lots of interesting things around the world, I want to capture those things and note those into my space.
+Hi, I'm just an idiot who wants to be the artist. :metal: <br>
+This blog is my personal learning space. <br>
 
-I'm going to post my blog mostly in Korean. But if there's more time to post, I'm planning to switch the it into english, or sometimes the language I'm interested in.
+My post will mostly be in Korean.<br>
+But when there's time some posts may be written in English or some other language.<br>
+
+I hope I can steadily post on this blog,<br>
+so that more people including me can enjoy the world better.<br>
 
 Let's cherish every moment! :v: <br>
 매순간을 소중하게! :v:
