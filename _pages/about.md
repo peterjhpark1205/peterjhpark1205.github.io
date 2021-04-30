@@ -23,8 +23,8 @@ But when there's time some posts may be written in English or some other languag
 I hope I can steadily post on this blog,<br>
 so that more people including me can enjoy the world better.<br>
 
-Let's cherish every moment! :v: <br>
-매순간을 소중하게! :v:
+Enjoy! :woman_dancing::man_dancing: <br>
+
 
 
 ## Eager to know about
