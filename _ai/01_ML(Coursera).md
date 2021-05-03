@@ -101,8 +101,6 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_02.png' alt="Cost Function_01", width='300'>
-</figure>
-<figure>
   <img src='/assets/images/ai_ml-coursera_02_03.png' alt="Cost Function_02", width='300'>
 </figure>
 
