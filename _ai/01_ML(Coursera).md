@@ -65,7 +65,7 @@ last_modified_at: 2021-04-30
   - 역사로 $\boldsymbol{h}$는 <u>가정(Hypothesis, '예측'으로 변환함.)</u>을 뜻함.
 
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_01.png' alt="Model Representation">
+  <img src='/assets/images/ai_ml-coursera_02_01.png' alt="Model Representation_01">
   <figcaption>우리가 예측하고자 하는 목표변수(반응변수)가 연속형이라면 회귀 문제로 보며, 이산형이라면 분류 문제로 본다.</figcaption>
 </figure>
 <br>
@@ -95,4 +95,25 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 
 비용 함수에 대한 내용을 시각화하여, 조금 더 자세히 알아보자.<br>
 
-훈련 데이터 세트는 $x$-$y$ 평면에 산포되어(흩어져) 있다. 우리는 $h_{\theta}(x)$로 표현되는 산포된 데이터 점들을 잘 설명하며 통과하는 직선(추세를 나타내는 직선)을 그리고자 하는 것이다. 이러한 최적의 직선은 산포된 점들로부터의 수직방향으로의 거리가 최소가 되는 것이다. 아래와 같이 $(x, y)$를 나타내는 점이 세 개($(1, 1), (2, 2), (3, 3)$)가 있다고 가정하자. 이러한 분포를 가장 잘 설명하는 직선은 아래 그림과 같을 것이다.<br>
+> 아래 박스에서는 $\theta_{0} = 0$ 이라고 가정하고 그림을 그려 직관적으로 $\theta_{1}$의 변화에 따른 비용 함수의 변화를 살펴본다.
+|훈련 데이터 세트는 $x$-$y$ 평면에 산포되어(흩어져) 있다. 우리는 $h_{\theta}(x)$로 표현되는 산포된 데이터 점들을 잘 설명하며 통과하는 직선(추세를 나타내는 직선)을 그리고자 하는 것이다. 이러한 최적의 직선은 산포된 점들로부터의 수직방향으로의 거리가 최소가 되는 것이다. 아래와 같이 $(x, y)$를 나타내는 점이 세 개($(1, 1), (2, 2), (3, 3)$)가 있다고 가정하자. 이러한 분포를 가장 잘 설명하는 직선은 아래 그림과 같을 것이다.<br>
+
+<figure>
+  <img src='/assets/images/ai_ml-coursera_02_02.png' alt="Cost Function_01">
+</figure>
+<figure>
+  <img src='/assets/images/ai_ml-coursera_02_03.png' alt="Cost Function_02">
+</figure>
+
+<figure>
+  <img src='/assets/images/ai_ml-coursera_02_04.png' alt="Cost Function_03">
+</figure>
+<figure>
+  <img src='/assets/images/ai_ml-coursera_02_05.png' alt="Cost Function_04">
+</figure>
+
+<figure>
+  <img src='/assets/images/ai_ml-coursera_02_06.png' alt="Cost Function_05">
+</figure>
+
+|
