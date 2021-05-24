@@ -101,23 +101,23 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 
 
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_02.png' align='center' alt="Cost Function_01", width='500'>
+  <img src='/assets/images/ai_ml-coursera_02_02.png' align='center' alt="Cost Function_01" width='500'>
 </figure>
 
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_03.png' align='center' alt="Cost Function_02", width='500'>
+  <img src='/assets/images/ai_ml-coursera_02_03.png' align='center' alt="Cost Function_02" width='500'>
 </figure>
 
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_04.png' align='center' alt="Cost Function_03", width='500'>
+  <img src='/assets/images/ai_ml-coursera_02_04.png' align='center' alt="Cost Function_03" width='500'>
 </figure>
 
 
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_05.png' align='center' alt="Cost Function_04", width='500'>
+  <img src='/assets/images/ai_ml-coursera_02_05.png' align='center' alt="Cost Function_04" width='500'>
 </figure>
 
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_06.png' align='center' alt="Cost Function_05", width='500'>
+  <img src='/assets/images/ai_ml-coursera_02_06.png' align='center' alt="Cost Function_05" width='500'>
 </figure>
 
