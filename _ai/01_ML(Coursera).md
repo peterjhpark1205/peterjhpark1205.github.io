@@ -23,7 +23,7 @@ last_modified_at: 2021-05-24
 ***
 <br>
 
-## 지도 학습(Supervised Learning)
+## 01-1. 지도 학습(Supervised Learning)
 
 **지도 학습(Supervised Learining)** 은 크게 <u>회귀(Regression)</u>와 <u>분류(Classification)</u>로 나뉜다. 회귀와 분류의 차이는 종속변수(반응변수)가 연속형(Continuous)인가 이산형(Discrete)인가에 따라 다르다고 할 수 있다. 우선 둘 다 현재의 자료를 바탕으로 미래를 예측한다는 것은 동일하다.<br>
 
@@ -36,7 +36,7 @@ last_modified_at: 2021-05-24
 <br>
 <br>
 
-## 비지도 학습(Unsupervised Learning)
+## 01-2. 비지도 학습(Unsupervised Learning)
 **비지도 학습(Unsupervised Learning)** 은 문제에 대한 해결 방법을 거의 또는 전혀 알지 못할 때, 결과가 어떠할 것인지를 예측하는 것이다. 우리는 설명변수가 어떤 영향을 미칠 지 모르는 상황(즉, 종속변수가 없는 상황) 속에서 해당 자료(Data)의 구조를 찾기 위해 비지도 학습을 사용한다.
 <br>
 
@@ -95,32 +95,33 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 
 비용 함수에 대한 내용을 다음에서 시각화하여, 조금 더 자세히 알아보자.<br>
 
-### [예시(비용 함수 시각화 설명)]
+### 예시03-1. (비용 함수 시각화 설명)
 
 |훈련 데이터 세트는 $x$-$y$ 평면에 산포되어(흩어져) 있다. 우리는 $h_{\theta}(x)$로 표현되는 산포된 데이터 점들을 잘 설명하며 통과하는 직선(추세를 나타내는 직선)을 그리고자 하는 것이다. 이러한 최적의 직선은 산포된 점들로부터의 (가로축을 기준으로)수직방향으로의 거리가 최소가 되는 것이다. 아래와 같이 $(x, y)$를 나타내는 점이 세 개($(1, 1), (2, 2), (3, 3)$)가 있다고 가정하자. 이러한 분포를 가장 잘 설명하는 직선은 아래 그림과 같을 것이다.<br>
 
-| 1. $\theta_{1}$이 1일때 추정선은 모든 점들을 다 지나간다.
+| 1. $\theta_{1}$이 1일때 추정선은 모든 점들을 다 지나간다.<br>
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_02.png' align='center' alt="Cost Function_01" width='500'>
 </figure>
 
-| 2. 1에 대한 비용함수 값은 0이 된다.
+| 2. 1에 대한 비용함수 값은 0이 된다.<br>
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_03.png' align='center' alt="Cost Function_02" width='500'>
 </figure>
 
-| 3. $\theta_{1}$이 0.5일때 추정선은 실제값과 아래와 같이 차이를 낸다.
+| 3. $\theta_{1}$이 0.5일때 추정선은 실제값과 아래와 같이 차이를 낸다.<br>
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_04.png' align='center' alt="Cost Function_03" width='500'>
 </figure>
 
-| 4. 3에 대한 비용함수 값은 그 차이의 제곱합에 $\frac{1}{2}$을 곱한 만큼 차이가 난다.
+| 4. 3에 대한 비용함수 값은 그 차이의 제곱합에 $\frac{1}{2}$을 곱한 만큼 차이가 난다.<br>
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_05.png' align='center' alt="Cost Function_04" width='500'>
 </figure>
 
-| 5. 이렇게 계속해서 $\theta_{1}$을 바꿔주며 추정값과 실제값의 차이(비용함수)를 구하면, $\theta_{1}$과 비용함수($J(\theta_{1}$)의 관계는 아래 그림과 같이 나타낼 수 있다.
+| 5. 이렇게 계속해서 $\theta_{1}$을 바꿔주며 추정값과 실제값의 차이(비용함수)를 구하면, $\theta_{1}$과 비용함수($J(\theta_{1}$)의 관계는 아래 그림과 같이 나타낼 수 있다.<br>
 <figure>
   <img src='/assets/images/ai_ml-coursera_02_06.png' align='center' alt="Cost Function_05" width='500'>
 </figure>
+
 
