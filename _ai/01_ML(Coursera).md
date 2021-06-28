@@ -101,26 +101,31 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 |훈련 데이터 세트는 $x$-$y$ 평면에 산포되어(흩어져) 있다. 우리는 $h_{\theta}(x)$로 표현되는 산포된 데이터 점들을 잘 설명하며 통과하는 직선(추세를 나타내는 직선)을 그리고자 하는 것이다. 이러한 최적의 직선은 산포된 점들로부터의 (가로축을 기준으로)수직방향으로의 거리가 최소가 되는 것이다. 아래와 같이 $(x, y)$를 나타내는 점이 세 개($(1, 1), (2, 2), (3, 3)$)가 있다고 가정하자. 이러한 분포를 가장 잘 설명하는 직선은 아래 그림과 같을 것이다.|<br>
 
 |1. $\theta_{1}$이 1일때 추정선은 모든 점들을 다 지나간다.|<br>
+
 <figure>
   <img src='/assets/images/ai_ml-coursera_03_01.png' align='center' alt="Cost Function_01" width='500'>
 </figure>
 
 |2. 1에 대한 비용함수 값은 0이 된다.|<br>
+
 <figure>
   <img src='/assets/images/ai_ml-coursera_03_02.png' align='center' alt="Cost Function_02" width='500'>
 </figure>
 
 |3. $\theta_{1}$이 0.5일때 추정선은 실제값과 아래와 같이 차이를 낸다.|<br>
+
 <figure>
   <img src='/assets/images/ai_ml-coursera_03_03.png' align='center' alt="Cost Function_03" width='500'>
 </figure>
 
 |4. 3에 대한 비용함수 값은 그 차이의 제곱합에 $\frac{1}{2}$을 곱한 만큼 차이가 난다.|<br>
+
 <figure>
   <img src='/assets/images/ai_ml-coursera_03_04.png' align='center' alt="Cost Function_04" width='500'>
 </figure>
 
 |5. 이렇게 계속해서 $\theta_{1}$을 바꿔주며 추정값과 실제값의 차이(비용함수)를 구하면, $\theta_{1}$과 비용함수($J(\theta_{1})$)의 관계는 아래 그림과 같이 나타낼 수 있다.|<br>
+
 <figure>
   <img src='/assets/images/ai_ml-coursera_03_05.png' align='center' alt="Cost Function_05" width='500'>
 </figure>
