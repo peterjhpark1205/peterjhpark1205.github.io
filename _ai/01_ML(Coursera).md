@@ -133,11 +133,18 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 <br>
 <br>
 
-# 04. 파라미미터 학습(Parameter Learning)
+# 04. 파라미터 학습(Parameter Learning)
 ***
 <br>
 
-## 04-1. 
+## 04-1. 경사 하강법(Gradient Descent)
+실젯값을 잘 추정하는 선을 그리기 위해선 적절한 파라미터의 조정이 필요하다. 실젯값과 추정값을 보여주는 식(2차원 평면을 가정했을 때)은 '$x$의 기울기'와 '$x$의 절편'으로 조정이 가능하다.(곡선의 경우에는 다항회귀로 $x$의 차원을 높여주는 것이므로 여기서는 논외로 한다.) 즉, 앞서 배웠던 비용 함수에서, $\theata$ 값들을 조정하여 $J(\theata)$값이 최소가 되는 $\theata$들을 찾아 실젯값을 추정하는 함수에 적용하면 되는 것이다.<br>
+정리하자면, 결국 아래 그림과 같이 비용함수를 최소로 하는 $\theata$들을 찾으면 된다는 말이다.
+
+<figure>
+  <img src='/assets/images/ai_ml-coursera_04_01.png' align='center' alt="Gradient Descent_01" width='500'>
+</figure>
+
 
 
 
