@@ -101,31 +101,43 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 
 |1. $\theta_{1}$이 1일때 추정선은 모든 점들을 다 지나간다.<br>
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_02.png' align='center' alt="Cost Function_01" width='500'>
+  <img src='/assets/images/ai_ml-coursera_03_01.png' align='center' alt="Cost Function_01" width='500'>
 </figure>
 
 |2. 1에 대한 비용함수 값은 0이 된다.<br>
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_03.png' align='center' alt="Cost Function_02" width='500'>
+  <img src='/assets/images/ai_ml-coursera_03_02.png' align='center' alt="Cost Function_02" width='500'>
 </figure>
 
 |3. $\theta_{1}$이 0.5일때 추정선은 실제값과 아래와 같이 차이를 낸다.<br>
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_04.png' align='center' alt="Cost Function_03" width='500'>
+  <img src='/assets/images/ai_ml-coursera_03_03.png' align='center' alt="Cost Function_03" width='500'>
 </figure>
 
 |4. 3에 대한 비용함수 값은 그 차이의 제곱합에 $\frac{1}{2}$을 곱한 만큼 차이가 난다.<br>
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_05.png' align='center' alt="Cost Function_04" width='500'>
+  <img src='/assets/images/ai_ml-coursera_03_04.png' align='center' alt="Cost Function_04" width='500'>
 </figure>
 
 |5. 이렇게 계속해서 $\theta_{1}$을 바꿔주며 추정값과 실제값의 차이(비용함수)를 구하면, $\theta_{1}$과 비용함수($J(\theta_{1}$)의 관계는 아래 그림과 같이 나타낼 수 있다.<br>
 <figure>
-  <img src='/assets/images/ai_ml-coursera_02_06.png' align='center' alt="Cost Function_05" width='500'>
+  <img src='/assets/images/ai_ml-coursera_03_05.png' align='center' alt="Cost Function_05" width='500'>
 </figure>
 
 
 ### 예시03-1. (비용 함수 시각화 설명: 절편($\theta_{0}$) 미고려)
 |준비중<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# 04. 파라미미터 학습(Parameter Learning)
+***
+<br>
+
+## 04-1. 
+
 
 
