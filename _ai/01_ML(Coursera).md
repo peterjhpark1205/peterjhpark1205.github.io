@@ -25,9 +25,9 @@ last_modified_at: 2021-05-24
 
 ## 01-1. 지도 학습(Supervised Learning)
 
-  **지도 학습(Supervised Learining)** 은 크게 <u>회귀(Regression)</u>와 <u>분류(Classification)</u>로 나뉜다. 회귀와 분류의 차이는 종속변수(반응변수)가 연속형(Continuous)인가 이산형(Discrete)인가에 따라 다르다고 할 수 있다. 우선 둘 다 현재의 자료를 바탕으로 미래를 예측한다는 것은 동일하다.<br>
+&nbsp;&nbsp;**지도 학습(Supervised Learining)** 은 크게 <u>회귀(Regression)</u>와 <u>분류(Classification)</u>로 나뉜다. 회귀와 분류의 차이는 종속변수(반응변수)가 연속형(Continuous)인가 이산형(Discrete)인가에 따라 다르다고 할 수 있다. 우선 둘 다 현재의 자료를 바탕으로 미래를 예측한다는 것은 동일하다.<br>
 
-  회귀는 종속변수가 연속형일 경우이고, 분류는 종속변수가 이산형일 때라고 볼 수 있다. 그랬을 때 로지스틱 회귀분석이 회귀분석이 회귀분석모형을 사용하지만, 분류인가에 대한 의문이 들 수 있다. 결론부터 말하자면, 분류에 사용되는 방법이다.<br>
+&nbsp;&nbsp;회귀는 종속변수가 연속형일 경우이고, 분류는 종속변수가 이산형일 때라고 볼 수 있다. 그랬을 때 로지스틱 회귀분석이 회귀분석이 회귀분석모형을 사용하지만, 분류인가에 대한 의문이 들 수 있다. 결론부터 말하자면, 분류에 사용되는 방법이다.<br>
 이 부분은 `분류(Classification)`-`로지스틱 회귀분석(Logistic Regresstion)` 부분에서 알 수 있다.
 
 - 종속변수가 이산형: 분류(Classification)
@@ -37,10 +37,10 @@ last_modified_at: 2021-05-24
 <br>
 
 ## 01-2. 비지도 학습(Unsupervised Learning)
-  **비지도 학습(Unsupervised Learning)** 은 문제에 대한 해결 방법을 거의 또는 전혀 알지 못할 때, 결과가 어떠할 것인지를 예측하는 것이다. 우리는 설명변수가 어떤 영향을 미칠 지 모르는 상황(즉, 종속변수가 없는 상황) 속에서 해당 자료(Data)의 구조를 찾기 위해 비지도 학습을 사용한다.
+&nbsp;&nbsp;**비지도 학습(Unsupervised Learning)** 은 문제에 대한 해결 방법을 거의 또는 전혀 알지 못할 때, 결과가 어떠할 것인지를 예측하는 것이다. 우리는 설명변수가 어떤 영향을 미칠 지 모르는 상황(즉, 종속변수가 없는 상황) 속에서 해당 자료(Data)의 구조를 찾기 위해 비지도 학습을 사용한다.
 <br>
 
-  비지도 학습은 크게 <u>군집(Clustering)</u>과 <u>비군집(Non-Clustering)</u>으로 나뉜다. 군집은 자료 내 변수들(Variables) 간의 관계(Relationship)를 파악하여 군집을 구성하는 것이고, 비군집은 ['칵테일 파티 효과(Cocktail Party Effect)'](https://en.wikipedia.org/wiki/Cocktail_party_effect)를 예로 들 수 있다. 여러 노이즈로 생각되는 값들 중에서 특정값을 찾아내고 이를 강조(Amplify)하는 것으로 실제 신경과학(Neuroscience)에서 관심을 갖고 있는 부분이고, 이를 구현하는 ['칵테일 파티 알고리즘'(Cocktail Party Algorithm)](https://interestingengineering.com/researchers-look-to-the-brain-for-algorithms-for-the-cocktail-party-problem)이 있다.
+&nbsp;&nbsp;비지도 학습은 크게 <u>군집(Clustering)</u>과 <u>비군집(Non-Clustering)</u>으로 나뉜다. 군집은 자료 내 변수들(Variables) 간의 관계(Relationship)를 파악하여 군집을 구성하는 것이고, 비군집은 ['칵테일 파티 효과(Cocktail Party Effect)'](https://en.wikipedia.org/wiki/Cocktail_party_effect)를 예로 들 수 있다. 여러 노이즈로 생각되는 값들 중에서 특정값을 찾아내고 이를 강조(Amplify)하는 것으로 실제 신경과학(Neuroscience)에서 관심을 갖고 있는 부분이고, 이를 구현하는 ['칵테일 파티 알고리즘'(Cocktail Party Algorithm)](https://interestingengineering.com/researchers-look-to-the-brain-for-algorithms-for-the-cocktail-party-problem)이 있다.
 <br>
 <br>
 <br>
@@ -51,7 +51,7 @@ last_modified_at: 2021-05-24
 ***
 <br>
 
-향후 개념 설명을 위해, 다음과 같이 변수를 설명한다.
+&nbsp;&nbsp;향후 개념 설명을 위해, 다음과 같이 변수를 설명한다.
 <br>
 - $\boldsymbol{x^{(i)}}$는 <u>입력값(Input, 설명변수)</u>을 나타내며, 우리가 입력하는 변수임.
 - $\boldsymbol{y^{(i)}}$는 <u>출력값(Output, 반응변수)</u>을 나타내며, 우리가 예측하고자 하는 값임.
@@ -78,13 +78,13 @@ last_modified_at: 2021-05-24
 ***
 <br>
 
-  비용 함수(Cost Function)을 활용하여, 예측 함수($h_{\theta}(x^{(i)})$)의 정확도를 측정한다. 비용 함수는 '$x$를 입력값으로 한 예측의 결괏값'과 '실젯값 $y$'의 차이의 평균(산술평균과는 다름.)으로 나타낸다. 
+&nbsp;&nbsp;비용 함수(Cost Function)을 활용하여, 예측 함수($h_{\theta}(x^{(i)})$)의 정확도를 측정한다. 비용 함수는 '$x$를 입력값으로 한 예측의 결괏값'과 '실젯값 $y$'의 차이의 평균(산술평균과는 다름.)으로 나타낸다. 
 <br>
 <br>
 $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2} = \frac{1}{2m}\sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^{2}$
 <br>
 <br>
-  이 함수는 '제곱 오차 함수(Squared Error Funciton)', 또는 '평균 제곱 오차(Mean Squared Error)'라고도 불린다. 이 평균값은 이후 해당 값을 미분하여 계산하는 경사 하강법(Gradient Descent)의 계산을 쉽게 하기 위해 $\frac{1}{2}$로 나눠준다.(미분을 하면 제곱에서 떨어지는 2와 상쇄됨)
+&nbsp;&nbsp;이 함수는 '제곱 오차 함수(Squared Error Funciton)', 또는 '평균 제곱 오차(Mean Squared Error)'라고도 불린다. 이 평균값은 이후 해당 값을 미분하여 계산하는 경사 하강법(Gradient Descent)의 계산을 쉽게 하기 위해 $\frac{1}{2}$로 나눠준다.(미분을 하면 제곱에서 떨어지는 2와 상쇄됨)
 
 <figure>
   <img src="https://miro.medium.com/max/700/1*OG1d4edy5BFYeQ0yHjBOJA.gif" alt="Cost Function Example">
@@ -99,7 +99,7 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 ***
 ## 예시03-1. (비용 함수 시각화 설명: 절편($\theta_{0}$) 미고려)
 
-  |훈련 데이터 세트는 $x$-$y$ 평면에 산포되어(흩어져) 있다. 우리는 $h_{\theta}(x)$로 표현되는 산포된 데이터 점들을 잘 설명하며 통과하는 직선(추세를 나타내는 직선)을 그리고자 하는 것이다. 이러한 최적의 직선은 산포된 점들로부터의 (가로축을 기준으로)수직방향으로의 거리가 최소가 되는 것이다. 아래와 같이 $(x, y)$를 나타내는 점이 세 개($(1, 1), (2, 2), (3, 3)$)가 있다고 가정하자. 이러한 분포를 가장 잘 설명하는 직선은 아래 그림과 같을 것이다.|<br>
+|&nbsp;&nbsp;훈련 데이터 세트는 $x$-$y$ 평면에 산포되어(흩어져) 있다. 우리는 $h_{\theta}(x)$로 표현되는 산포된 데이터 점들을 잘 설명하며 통과하는 직선(추세를 나타내는 직선)을 그리고자 하는 것이다. 이러한 최적의 직선은 산포된 점들로부터의 (가로축을 기준으로)수직방향으로의 거리가 최소가 되는 것이다. 아래와 같이 $(x, y)$를 나타내는 점이 세 개($(1, 1), (2, 2), (3, 3)$)가 있다고 가정하자. 이러한 분포를 가장 잘 설명하는 직선은 아래 그림과 같을 것이다.|<br>
 <br>
 <br>
 
@@ -137,7 +137,7 @@ $J(\theta_{0},\theta_{1}) = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}^{(i)}-y^{(i)})^{2
 
 ***
 ## 예시03-2. (비용 함수 시각화 설명: 절편($\theta_{0}$)까지 고려)
-|준비중<br>
+|준비중|<br>
 
 ***
 <br>
