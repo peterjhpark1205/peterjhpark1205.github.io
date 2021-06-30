@@ -103,7 +103,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/profile_photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Just an idiot who wants to be the aritist."
+  bio              : "알고 싶고, 안 것을 기록하고, 기록한 것을 기억하고 싶어요."
   location         : "대한민국, 서울"
   email            :
   links:
