@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "공부와 관련된 것을 기록하는 공간입니다."
+excerpt: "알고 싶고, 안 것을 기록하고, 기록한 것을 기억하고 싶어요."
 layouts_gallery:
   - url: /assets/images/profile_pic.png
     image_path: /assets/images/profile_pic.png
